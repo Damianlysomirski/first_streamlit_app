@@ -62,6 +62,4 @@ if streamlit.button('Add a fruit to list'):
   streamlit.text(back_from_function)
 
 
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
-
 
